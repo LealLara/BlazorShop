@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BlazorShop.Api/BlazorShop.Api.csproj" />
+  <Project Path="BlazorShop.Models/BlazorShop.Models.csproj" />
+  <Project Path="BlazorShop.Web/BlazorShop.Web.csproj" />
+</Solution>
