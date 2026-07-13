@@ -1,0 +1,56 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+
+    <div class="logo-area">
+        <img src="Imagens/Logo/blzshopping3.jpg" class="logo" />
+        <h4>BlazorShop</h4>
+    </div>
+
+    <nav>
+
+        <NavLink href="/" Match="NavLinkMatch.All" class="menu-item">
+            <i class="bi bi-house-door-fill"></i>
+            <span>Home</span>
+        </NavLink>
+        <NavLink href="/produtos" class="menu-item">
+            <i class="bi bi-box-seam"></i>
+            <span>Produtos</span>
+        </NavLink>
+
+ 
+        <NavLink href="/carrinho" class="menu-item">
+            <i class="bi bi-cart3"></i>
+            <span>Carrinho</span>
+
+            <span class="badge">@QuantidadeItensCarrinho</span>
+        </NavLink>
+
+    </nav>
+
+    <div class="sidebar-footer">
+
+        <NavLink href="/perfil" class="menu-item">
+            <i class="bi bi-person-circle"></i>
+            <span>Perfil</span>
+        </NavLink>
+
+        <NavLink href="/configuracoes" class="menu-item">
+            <i class="bi bi-gear-fill"></i>
+            <span>Configurações</span>
+        </NavLink>
+
+        <NavLink href="/logout" class="menu-item">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Sair</span>
+        </NavLink>
+
+    </div>
+
+</div>
+
+@code {
+
+    private int QuantidadeItensCarrinho = 5;
+
+}

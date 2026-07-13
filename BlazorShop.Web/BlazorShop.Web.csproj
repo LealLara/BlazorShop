@@ -13,4 +13,31 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Imagens\Camiseta\" />
+    <Folder Include="wwwroot\Imagens\Livro\" />
+    <Folder Include="wwwroot\Imagens\Camara\" />
+    <Folder Include="wwwroot\Imagens\Fone\" />
+    <Folder Include="wwwroot\Imagens\Cadeira\" />
+    <Folder Include="wwwroot\Imagens\Bicicleta\" />
+    <Folder Include="wwwroot\Imagens\Cafeteira\" />
+    <Folder Include="wwwroot\Imagens\Brinquedo\" />
+    <Folder Include="wwwroot\Imagens\Aspirador\" />
+    <Folder Include="wwwroot\Imagens\Mochila\" />
+    <Folder Include="wwwroot\Imagens\Guitarra\" />
+    <Folder Include="wwwroot\Imagens\LivroFiccao\" />
+    <Folder Include="wwwroot\Imagens\CamisetaEstampada\" />
+    <Folder Include="wwwroot\Imagens\Tablet\" />
+    <Folder Include="wwwroot\Imagens\Sofa\" />
+    <Folder Include="wwwroot\Imagens\Perfume\" />
+    <Folder Include="wwwroot\Imagens\Relogio\" />
+    <Folder Include="wwwroot\Imagens\Notebook\" />
+    <Folder Include="wwwroot\Imagens\Tenis\" />
+    <Folder Include="wwwroot\Imagens\Smartphone\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorShop.Models\BlazorShop.Models.csproj" />
+  </ItemGroup>
+
 </Project>

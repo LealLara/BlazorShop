@@ -15,6 +15,7 @@ namespace BlazorShop.Api.Controllers
             _logger = logger;
             _produtosRepository = produtosRepository;
         }
+
         [HttpGet]
         public async Task<IActionResult> GetItens()
         {
