@@ -20,24 +20,28 @@ h1:focus {
     color: white;
 }
 .page {
-    display: flex;
+    display: inline-block;
+    max-height: 100vh; 
 }
 
 .main-content {
     flex: 1;
-    padding: 20px;
-    margin-left: 260px;
-    width: calc(100% - 260px);
-    min-height: 100vh;
-    padding: 20px;
-} 
+    overflow-x: auto;
+}
+
+.content {
+    width: 100%;
+}
 
 .sidebar {
+    position: fixed;
     width: 260px;
-    position: sticky;
-    top: 0;
-    height: 100vh;
     flex-shrink: 0;
+    background: #1d2636;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 0 15px rgba(0,0,0,.2);
 }
 
 /*.sidebar {
